@@ -17,23 +17,21 @@ void CountTriplets(int array[], int N)
     if(N <= 2)
         cout<< -1 <<endl;
 
-    sort(array, array+N);
-
-    for (int i = N - 1; i >= 0; i--)
-    {
-        int j = 0;
-        int k = i - 1;
-
-        while (j < k)
-        {
-            if (array[i] == array[j] + array[k])
-                count += 1;
-            else if (array[i] > array[j] + array[k])
-                j += 1;
-            else
-                k -= 1;
-        }
+    int freq[1000] = {0};
+      
+    // Loop to count the frequency
+    for (int i=0; i < N; i++){
+        freq[array[i]]++;
     }
+
+    // Loop to count for triplets
+    for(int i = 0;i < N; i++)
+    {
+        for(int j = i+1; j < N; j++)
+            if(freq[array[i] + array[j]])
+                count++;
+    }
+
     if(count == 0)
         count = -1;
 
