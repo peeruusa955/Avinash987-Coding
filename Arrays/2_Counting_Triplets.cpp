@@ -13,25 +13,26 @@ using namespace std;
 //Logic
 void CountTriplets(int array[], int N)
 {
-    int count = 0;
-    if(N <= 2)
-        cout<< -1 <<endl;
-
-    int freq[1000] = {0};
-      
-    // Loop to count the frequency
-    for (int i=0; i < N; i++){
-        freq[array[i]]++;
-    }
-
-    // Loop to count for triplets
-    for(int i = 0;i < N; i++)
+    sort(array, array+N);
+    int count=0;
+    for(int i=N-1; i>1; i--)
     {
-        for(int j = i+1; j < N; j++)
-            if(freq[array[i] + array[j]])
-                count++;
-    }
+        int j=0, k=i-1;
+        while(j<k)
+        {
+            if(array[j]+array[k] == array[i])
+                {
+                    count+=1;
+                    j+=1;
+                    k-=1;
 
+                }
+                else if(array[j]+array[k] < array[i])
+                    j+=1;
+                else
+                    k-=1;
+        }
+    }
     if(count == 0)
         count = -1;
 
