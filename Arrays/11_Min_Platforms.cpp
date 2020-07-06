@@ -54,7 +54,7 @@ int main(void)
     int T, N;
     cin >> T;
     // For all the test cases
-    for(int t=0; t<T; t++)0
+    for(int t=0; t<T; t++)
     {
         cin >> N;
         int arr[N], dep[N];
