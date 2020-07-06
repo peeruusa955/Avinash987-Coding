@@ -10,15 +10,9 @@ for i in range(t):
     l=list(map(int,input().split()))
     cnt=0
     while(cnt<n):
-            tmp=l[cnt:cnt+d]
-            cnt=cnt+d
-            tmp.reverse()
-            for k in tmp:
-                print(k,end=' ')
-        else:
-            tmp=l[cnt:n]
-            cnt=cnt+len(tmp)
-            tmp.reverse()
-            for k in tmp:
-                print(k,end=' ')
+        tmp=l[cnt:cnt+d]
+        cnt=cnt+d
+        tmp.reverse()
+        for k in tmp:
+            print(k,end=' ')
     print()
