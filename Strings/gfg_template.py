@@ -7,8 +7,6 @@ def function_name():
 if __name__ == "__main__":
     t = int(input())
     for i in range(t):
-        n = int(input())
-        l = list(map(int, input().split()))
-        k = int(input())
+        string = str(input())
         result = function_name()
         print(result)
