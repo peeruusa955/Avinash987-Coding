@@ -7,33 +7,35 @@ Incase of conflict, return the substring which occurs first
 ( with the least starting index ).
 NOTE : Required Time Complexity O(n2).
 """
-import sys
-def printAl(string):
-    my_list_final = []
-    for i in range(len(string)):
-        for j in range(i+1, len(string)):
-            if check_palindrome(string[i:j+1]):
-                my_list_final.append((i, j+1))
-    max_ = -sys.maxsize, -1
-    for count, i in enumerate(my_list_final):
-        if abs(i[0] - i[1]) > max_[0]:
-            max_ = abs(i[0] - i[1]), count
-    if len(my_list_final) == 0:
-        return string[0]
-    else:
-        value = my_list_final[max_[1]]
-        return string[value[0] : value[1]]
-
-
-def check_palindrome(string):
-    if string == string[::-1]:
-        return True
-    else:
-        return False
+def longestPalindrome(s):
+    n = len(s)
+    best_len = 0
+    best_s = ""
+    for mid in range(n):
+        x = 0
+        while mid - x >= 0 and mid + x < n :
+            if s[ mid - x] != s[mid + x]:
+                break
+            sub_len = 2*x + 1
+            if sub_len > best_len:
+                best_len = sub_len
+                best_s = s[mid-x: mid+x + 1]
+            x += 1
+    for mid in range(n-1):
+        x = 1
+        while mid - x + 1 >=0 and mid + x < n :
+            if s[mid-x+1] != s[mid+x]:
+                break
+            sub_len = 2 * x
+            if sub_len > best_len:
+                best_len = sub_len
+                best_s = s[mid-x+1: mid+x+1]
+            x += 1
+    return best_s
 
 if __name__ == "__main__":
     t = int(input())
     for i in range(t):
         string = str(input())
-        print(printAl(string), end=" ")
+        result = longestPalindrome(string)
         print()
