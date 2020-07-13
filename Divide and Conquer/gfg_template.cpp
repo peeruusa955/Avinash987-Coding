@@ -14,7 +14,7 @@ void function_name(int arr[], int n)
 int main(void)
 {
     // added the two lines below
-    ios_base::sync_with_stdio(false); 
+    ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     int T, n, k;
@@ -29,7 +29,7 @@ int main(void)
             cin >> arr[i];
         cin >> k;
 
-        function_name();
+        function_name(arr, n);
 
         cout<< arr[k-1]<<"\n";
     }
