@@ -54,14 +54,14 @@ int main()
 	   for(i=0;i<ans.size();i++)
 	   {   cout<<"(";
 	       for(int j=0;j<ans[i].size();j++)
-	        {    
+	        {
 	            if(j!=ans[i].size()-1)
 	               cout<<ans[i][j]<<" ";
 	            else 
 	             cout<<ans[i][j];
 	         }
 	        cout<<")";
-	       
+
 	   }
 	   if(ans.size()==0)cout<<"Empty";
 	   cout<<endl;
