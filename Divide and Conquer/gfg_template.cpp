@@ -13,6 +13,10 @@ void function_name(int arr[], int n)
 
 int main(void)
 {
+    // added the two lines below
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL);
+
     int T, n, k;
     cin >> T;
     // For all the test cases
@@ -27,7 +31,7 @@ int main(void)
 
         function_name();
 
-        cout<< arr[k-1]<<endl;
+        cout<< arr[k-1]<<"\n";
     }
     return 0;
 }
