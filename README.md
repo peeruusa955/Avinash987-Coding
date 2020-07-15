@@ -32,6 +32,22 @@
   [5](https://github.com/Avinash987/Coding/blob/master/Arrays/5_Rearrange_Array_Alt.cpp). Given a sorted array of positive integers. Your task is to rearrange      the array elements alternatively.
     i.e first element should be max value, second should be min value, third should be second max, fourth should be second min and so on...
     Note: O(1) extra space is allowed. Also, try to modify the input array as required.
+  
+  [6](https://github.com/Avinash987/Coding/blob/master/Arrays/6_Num_Pairs.cpp). Given two arrays X and Y of positive long integers, find number of pairs such that x^y > y^x (raised to power of)
+    where x is an element from X and y is an element from Y.
    
+  [7](https://github.com/Avinash987/Coding/blob/master/Arrays/7_Inversion.cpp). Given an array of positive long integers. The task is to find inversion count of array.
+    Inversion Count : For an array, inversion count indicates how far (or close) the array is from being sorted. If array is already sorted then inversion count is 0. If array is sorted in reverse order that inversion count is the maximum.   
+    Formally, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+    
+  [8](https://github.com/Avinash987/Coding/blob/master/Arrays/8_Sort_0s_1s_2s.cpp). Given an array A of size N containing 0s, 1s, and 2s; you need to sort the array in ascending order.
+   
+  [9](https://github.com/Avinash987/Coding/blob/master/Arrays/9_Equillibrium_Point.cpp). Given an array A of N positive numbers. The task is to find the position where equilibrium first occurs in the array.
+    Equilibrium position in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
+   
+  [10](https://github.com/Avinash987/Coding/blob/master/Arrays/10_Leaders.cpp). Given an array of positive integers. Your task is to find the leaders in the array.
+    Note: An element of array is leader if it is greater than or equal to all the elements to its right side. Also, the rightmost element is always a leader.
+    
+  [11](https://github.com/Avinash987/Coding/blob/dab51bc33a6837db0a7052d5560b547d90cc6134/Arrays/11_Min_Platforms.cpp). Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no train waits.
 
 ### 4. Strings
