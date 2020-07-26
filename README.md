@@ -76,7 +76,7 @@
   [22](https://github.com/Avinash987/Coding/blob/master/Arrays/22_Largest_Num.cpp). Given a list of non negative integers, arrange them in such a manner that they form the largest number possible. The result is going to be very large, hence return the result in the form of a string.
 
 
-### 4. Strings
+## 4. Strings
 
   [0](https://github.com/Avinash987/Coding/blob/master/Strings/0_Reverse_Words.py). Given a String of length S, reverse the whole string without reversing the individual words in it. Words are separated by dots.
   
@@ -105,8 +105,8 @@
   [12](https://github.com/Avinash987/Coding/blob/master/Strings/12_LongCommPrefix.py). Given a array of N strings, find the longest common prefix among all strings present in the array.
   
   
-### 5. Linked List
+## 5. Linked List
 
-### 6. Stack and Queue
+## 6. Stack and Queue
 
-### 7. Tree and BST
+## 7. Tree and BST
