@@ -16,14 +16,14 @@ void preOrderUtil(Node* node,vector<int> &v)
 {
     if(node == NULL)
         return;
-    
-    v.push_back(node->data);    
+
+    v.push_back(node->data);
     
     preOrderUtil(node->left, v);
-    
+
     preOrderUtil(node->right, v);
 }
-// Return a vector containing the inorder traversal of the tree
+// Return a vector containing the preorder traversal of the tree
 
 
 vector <int> preorder(Node* root)
