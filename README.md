@@ -65,31 +65,31 @@
 
 ## 4. Strings
 
-  [0](https://github.com/Avinash987/Coding/blob/master/Strings/0_Reverse_Words.py). Given a String of length S, reverse the whole string without reversing the individual words in it. Words are separated by dots.
+  0. [Reverse words in a given string](https://github.com/Avinash987/Coding/blob/master/Strings/0_Reverse_Words.py)
   
-  [1](https://github.com/Avinash987/Coding/blob/master/Strings/1_Permutations.py). Given a string S. The task is to print all permutations of a given string.
+  1. [Permutations of a given string](https://github.com/Avinash987/Coding/blob/master/Strings/1_Permutations.py)
   
-  [2](https://github.com/Avinash987/Coding/blob/master/Strings/2_Longest_Palindrome.py). Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i..j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the same backwards. More formally, S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs first (with the least starting index).
+  2. [Longest Palindrome in a String](https://github.com/Avinash987/Coding/blob/master/Strings/2_Longest_Palindrome.py)
   
-  [3](https://github.com/Avinash987/Coding/blob/master/Strings/3_Remove_Adj_dups.py). Given a string s, recursively remove adjacent duplicate characters from the string s.The output string should not have any adjacent duplicates.
+  3. [Recursively remove all adjacent duplicates](https://github.com/Avinash987/Coding/blob/master/Strings/3_Remove_Adj_dups.py)
   
-  [4](https://github.com/Avinash987/Coding/blob/master/Strings/4_Check_String_Rot.py). Given two strings a and b. The task is to find if a string 'a' can be obtained by rotating another string 'b' by 2 places.
+  4. [Check if string is rotated by two places](https://github.com/Avinash987/Coding/blob/master/Strings/4_Check_String_Rot.py)
   
-  [5](https://github.com/Avinash987/Coding/blob/master/Strings/5_Roman_to_Int.py). Given a string in roman no format (s)  your task is to convert it to integer. Given an string in roman no format(s) your task is to convert it to integer.
+  5. [Roman Number to Integer](https://github.com/Avinash987/Coding/blob/master/Strings/5_Roman_to_Int.py)
   
-  [6](https://github.com/Avinash987/Coding/blob/master/Strings/6_Anagram.py). Given two strings a and b consisting of lowercase characters. The task is to check whether two given strings are anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “act” and “tac” are anagram of each other.
+  6. [Anagram](https://github.com/Avinash987/Coding/blob/master/Strings/6_Anagram.py)
 
-  [7](https://github.com/Avinash987/Coding/blob/master/Strings/7_Rm_Dups.py). Given a string, the task is to remove duplicates from it.
+  7. [Remove Duplicates](https://github.com/Avinash987/Coding/blob/master/Strings/7_Rm_Dups.py)
 
-  [8](https://github.com/Avinash987/Coding/blob/master/Strings/8_Form_Palindrome.py). Given a string, find the minimum number of characters to be inserted to convert it to palindrome.
+  8. [Form a Palindrome](https://github.com/Avinash987/Coding/blob/master/Strings/8_Form_Palindrome.py)
   
-  [9](https://github.com/Avinash987/Coding/blob/master/Strings/9_Distinct_Chars.py). Given a string S, find length of the longest substring with all distinct characters.
+  9. [Longest Distinct Characters in the string](https://github.com/Avinash987/Coding/blob/master/Strings/9_Distinct_Chars.py)
   
-  [10](https://github.com/Avinash987/Coding/blob/master/Strings/10_AtoI.py). Your task  is to implement the function atoi. The function takes a string(str) as argument and converts it to an integer and returns it.
+  10. [Implement Atoi](https://github.com/Avinash987/Coding/blob/master/Strings/10_AtoI.py)
   
-  [11](https://github.com/Avinash987/Coding/blob/master/Strings/11_StrStr.py). Your task is to implement the function strstr. The function takes two strings as arguments (s,x) and locates the occurrence of the string x in the string s. The function returns and integer denoting the first occurrence of the string x in s (0 based indexing).
+  11. [Implement strstr](https://github.com/Avinash987/Coding/blob/master/Strings/11_StrStr.py)
   
-  [12](https://github.com/Avinash987/Coding/blob/master/Strings/12_LongCommPrefix.py). Given a array of N strings, find the longest common prefix among all strings present in the array.
+  12. [Longest Common Prefix](https://github.com/Avinash987/Coding/blob/master/Strings/12_LongCommPrefix.py)
   
   
 ## 5. Linked List
