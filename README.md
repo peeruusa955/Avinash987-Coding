@@ -1,4 +1,4 @@
-# Must do Interview Coding Problems from GeekforGeeks
+# Must do Data Structrues and Algorithms - Interview Coding Problems from GeekforGeeks
 
   This repository is a collection of my solutions to the must do probelms in [geeksforgeeks](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
 
@@ -31,6 +31,16 @@
 
 ## 2. Recursion 
 
+  0. [Flood fill Algorithm](https://github.com/Avinash987/Coding/blob/master/Recursion/0_Flood_Fill.cpp)
+   
+  1. [Number of paths](https://github.com/Avinash987/Coding/blob/master/Recursion/1_Num_of_Paths.cpp)
+   
+  2. [Combination Sum – Part 2](https://github.com/Avinash987/Coding/blob/master/Recursion/2_CombnSum.cpp)
+   
+  3. [Special Keyboard](https://github.com/Avinash987/Coding/blob/master/Recursion/3_Special_keyboard.cpp)
+    
+  4. [Josephus problem](https://github.com/Avinash987/Coding/blob/master/Recursion/4_Josephus_Problem.cpp)
+  
 ## 3. Arrays
 
    0. [Subarray with given sum](https://github.com/Avinash987/Coding/blob/master/Arrays/0_Rotate_Array.cpp)
