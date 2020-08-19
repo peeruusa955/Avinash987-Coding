@@ -12,6 +12,20 @@
   
 ## 1. Divide and Conquer
 
+  0. [Find the element that appears once in sorted array](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/0_Find_Elements.cpp)
+  
+  1. [Search in a Rotated Array](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/1_Search.cpp)
+  
+  2. [Binaray Search](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/2_Binary_Search.cpp)
+  
+  3. [Sum of Middle Elements of two sorted arrays](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/3_Merge.cpp)
+  
+  4. [Quick Sort](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/4_Quick_Sort.cpp)
+
+  5. [Merge Sort](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/5_Merge_Sort.cpp)
+  
+  6. [K-th element of two sorted Arrays](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/6_K-th_Element.cpp)
+
 ## 2. Recursion 
 
 ## 3. Arrays
