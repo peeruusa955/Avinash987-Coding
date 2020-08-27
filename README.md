@@ -120,6 +120,24 @@
   
   
 ## 5. Linked List
+  0. [Finding middle element in a linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/0_Find_the_Middle.cpp)
+  1. [Reverse a linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/1_Reverse.cpp)
+  2. [Rotate a Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/2_Rotate.cpp)
+  3. [Reverse a Linked List in groups of given size](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/3_Reverse_with_k.cpp)
+  4. [Intersection point in Y shaped linked lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/4_Find_The_Y_intersection.cpp)
+  5. [Detect Loop in linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/5_Detect_Loop.cpp)
+  6. [Remove loop in Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/6_Remove_Loop.cpp)
+  7. [N’th node from end of linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/7_Nth_Node_from_End.cpp)
+  8. [Flattening a Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/8_Flattening_List.cpp)
+  9. [Merge two sorted linked lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/9_Merge.cpp)
+  10. [Intersection point of two Linked Lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/10_Pairwise_Swap.cpp)
+  11. [Pairwise swap of a linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/11_Add_two_ll_num.cpp)
+  12. [Add two numbers represented by linked lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/12_Check_Palindrome.cpp)
+  13. [Check if Linked List is Palindrome](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/13_Queue.cpp)
+  14. [Implement Queue using Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/14_Stack.cpp)
+  15. [Implement Stack using Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/15_Sort_0s1s2s.cpp)
+  16. [Given a linked list of 0s, 1s and 2s, sort it](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/16_Delete_without_head.cpp)
+  17. [Delete without head pointer](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/17_Delete_headless.cpp)
 
 ## 6. Stack and Queue
 
