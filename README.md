@@ -1,19 +1,46 @@
-# Must do Interview Coding Problems from GeekforGeeks
+# Must do Data Structrues and Algorithms - Interview Coding Problems from GeekforGeeks
 
   This repository is a collection of my solutions to the must do probelms in [geeksforgeeks](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
 
 ## 0. To get started follow the Books or Coding Interview University
 
   0. [Coding Interview University](https://github.com/jwasham/coding-interview-university) is the perfect place to get started with your preperation.
+  
   1. [The Coding Book](https://github.com/Avinash987/Coding/blob/master/CodingBook.pdf)
+  
   2. [Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions](https://github.com/Avinash987/Coding/blob/master/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf)
+  
   3. [Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests](https://github.com/Avinash987/Coding/blob/master/Guide%20to%20Competitive%20Programming_%20Learning%20and%20Improving%20Algorithms%20Through%20Contests%20(%20PDFDrive.com%20).pdf)
     
   
 ## 1. Divide and Conquer
 
+  0. [Find the element that appears once in sorted array](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/0_Find_Elements.cpp)
+  
+  1. [Search in a Rotated Array](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/1_Search.cpp)
+  
+  2. [Binaray Search](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/2_Binary_Search.cpp)
+  
+  3. [Sum of Middle Elements of two sorted arrays](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/3_Merge.cpp)
+  
+  4. [Quick Sort](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/4_Quick_Sort.cpp)
+
+  5. [Merge Sort](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/5_Merge_Sort.cpp)
+  
+  6. [K-th element of two sorted Arrays](https://github.com/Avinash987/Coding/blob/master/Divide%20and%20Conquer/6_K-th_Element.cpp)
+
 ## 2. Recursion 
 
+  0. [Flood fill Algorithm](https://github.com/Avinash987/Coding/blob/master/Recursion/0_Flood_Fill.cpp)
+   
+  1. [Number of paths](https://github.com/Avinash987/Coding/blob/master/Recursion/1_Num_of_Paths.cpp)
+   
+  2. [Combination Sum – Part 2](https://github.com/Avinash987/Coding/blob/master/Recursion/2_CombnSum.cpp)
+   
+  3. [Special Keyboard](https://github.com/Avinash987/Coding/blob/master/Recursion/3_Special_keyboard.cpp)
+    
+  4. [Josephus problem](https://github.com/Avinash987/Coding/blob/master/Recursion/4_Josephus_Problem.cpp)
+  
 ## 3. Arrays
 
    0. [Subarray with given sum](https://github.com/Avinash987/Coding/blob/master/Arrays/0_Rotate_Array.cpp)
