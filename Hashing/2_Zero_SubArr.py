@@ -2,22 +2,18 @@
 Largest subarray with sum 0
 """
 def maxLen(n, arr):
-    sumArr = [0]*n
-    sumArr[0] = arr[0]
-    countMap = {}
-    countMap[arr[0]] = 0
-    for i in range(1, n):
-        sumArr[i] = arr[i] + sumArr[i-1]
-        if sumArr[i] not in countMap:
-            countMap[sumArr[i]] = 1
+    hashmap = {}
+    sum_, res = 0, 0
+    
+    for i in range(len(arr)):
+        sum_ += arr[i]
+        if sum_ == 0:
+            res = i+1
+        if sum_ in hashmap:
+            res = max(res, i-hashmap[sum_])
         else:
-            countMap[sumArr[i]] += 1
-    # print("Sum Arr : ",*sumArr)
-    # print("Count Map : ",countMap)
-    freqValue = max(countMap.items(), key= lambda i:i[1])[0]
-    firstOccr = sumArr.index(freqValue)
-    lastOccr = len(sumArr) - sumArr[::-1].index(freqValue) - 1
-    return lastOccr - firstOccr+
+            hashmap[sum_] = i
+    return res
 
 
 
