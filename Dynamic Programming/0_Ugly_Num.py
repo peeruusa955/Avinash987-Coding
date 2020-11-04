@@ -2,7 +2,7 @@
 class Solution:
 	def getNthUglyNo(self,n):
 		# code here
-    	Ugly = [1]*n
+        Ugly = [1]*n
     	if n == 1:
     	    return 1
     	# i = [i2, i3, i5]
