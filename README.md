@@ -132,7 +132,7 @@
   9. [Merge two sorted linked lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/9_Merge.cpp)
   10. [Intersection point of two Linked Lists](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/10_Pairwise_Swap.cpp)
   11. [Pairwise swap of a linked list](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/11_Add_two_ll_num.cpp)
-  12. [Add two numbers represented by linked lists CPP](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/12_Check_Palindrome.cpp) [Add two numbers represented by linked lists Java](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/18_Add_two_num.java)
+  12. [Add two numbers represented by linked lists CPP](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/12_Check_Palindrome.cpp) , [Add two numbers represented by linked lists Java](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/18_Add_two_num.java)
   13. [Check if Linked List is Palindrome](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/13_Queue.cpp)
   14. [Implement Queue using Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/14_Stack.cpp)
   15. [Implement Stack using Linked List](https://github.com/Avinash987/Coding/blob/master/Linked%20Lists/15_Sort_0s1s2s.cpp)
